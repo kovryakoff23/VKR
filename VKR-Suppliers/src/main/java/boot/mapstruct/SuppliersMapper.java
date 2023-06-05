@@ -9,10 +9,11 @@ import boot.entity.Suppliers;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.NullValueCheckStrategy;
+import org.mapstruct.ReportingPolicy;
 
 import java.util.Set;
 
-@Mapper(componentModel = "spring")
+@Mapper(componentModel = "spring", unmappedTargetPolicy = ReportingPolicy.IGNORE)
 public interface SuppliersMapper {
 
     @Mapping(source = "suppliers.supplyPositions", target = "supplyPositionsDTO")

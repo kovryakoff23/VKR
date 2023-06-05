@@ -4,8 +4,5 @@ pluginManagement {
     }
 }
 rootProject.name = 'VKR'
-include 'VKR-Suppliers'
-include 'VKR-Main'
-include 'Authorization'
-include 'VKR-Authorization'
+include 'VKR-Suppliers', 'VKR-Main', 'VKR-Authorization'
 
