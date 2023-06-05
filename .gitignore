@@ -1,0 +1,6 @@
+.idea
+.gradle
+build
+/VKR-Suppliers/build
+/VKR-Main/build
+/VKR-Authorization/build
